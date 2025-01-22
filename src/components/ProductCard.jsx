@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // useNavigate 가져오기
 import '../styles/components/ProductCard.css';
-import { CartContext } from '../components/CartContext'; // CartContext 가져오기
-import { FaHeart, FaThumbsUp, FaComment, FaShoppingCart } from 'react-icons/fa';
+import { FaHeart, FaThumbsUp, FaComment, } from 'react-icons/fa';
 
-const ProductCard = ({ product, addToCart }) => {
-  const { id, name, price, imageUrl, discountRate, description } = product; // id 추가
+const ProductCard = ({ product }) => {
+  const { id, name, price, imageUrl, discountRate } = product; // id 추가
   const [liked, setLiked] = useState(false);
   const [thumbsUp, setThumbsUp] = useState(false);
   const [comments, setComments] = useState(false);
@@ -37,7 +36,7 @@ const ProductCard = ({ product, addToCart }) => {
             onClick={(e) => { e.stopPropagation(); handleComments(); }}
           />
         </div>
-        
+
       </div>
       <div className="product-info">
         <h3 className="product-name">{name}</h3>

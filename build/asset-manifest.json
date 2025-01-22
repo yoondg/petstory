@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ec728de3.css",
+    "main.js": "/static/js/main.b86687ef.js",
+    "static/media/fixed_banner01.jpg": "/static/media/fixed_banner01.7afec65129e8e90ba060.jpg",
+    "static/media/Paperlogy-1Thin.ttf": "/static/media/Paperlogy-1Thin.ee313abc31e0d9ea22db.ttf",
+    "static/media/Paperlogy-2ExtraLight.ttf": "/static/media/Paperlogy-2ExtraLight.38e4f9920dde6241199b.ttf",
+    "static/media/Paperlogy-3Light.ttf": "/static/media/Paperlogy-3Light.0a2cf80af77b77f175a3.ttf",
+    "static/media/Paperlogy-4Regular.ttf": "/static/media/Paperlogy-4Regular.3f9b448bfc4e1c72585f.ttf",
+    "static/media/Paperlogy-5Medium.ttf": "/static/media/Paperlogy-5Medium.97b1874007db1a8ef614.ttf",
+    "static/media/Paperlogy-6SemiBold.ttf": "/static/media/Paperlogy-6SemiBold.ccae5d3b3bb3e0b60c45.ttf",
+    "static/media/Paperlogy-7Bold.ttf": "/static/media/Paperlogy-7Bold.9b54e9c4a498f4cc5d2b.ttf",
+    "static/media/Paperlogy-9Black.ttf": "/static/media/Paperlogy-9Black.619ffedf0bf3a9677fb8.ttf",
+    "static/media/Paperlogy-8ExtraBold.ttf": "/static/media/Paperlogy-8ExtraBold.f35fa17caa2145fc6f45.ttf",
+    "static/media/main_video_bg.jpg": "/static/media/main_video_bg.291dd252dcc61baa90c6.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/index.html",
+    "main.ec728de3.css.map": "/static/css/main.ec728de3.css.map",
+    "main.b86687ef.js.map": "/static/js/main.b86687ef.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ec728de3.css",
+    "static/js/main.b86687ef.js"
+  ]
+}
