@@ -1,0 +1,256 @@
+/* 기본 스타일 */
+.product-detail-page {
+  max-width: 1200px;
+  margin: 90px auto;
+  padding: 20px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: gray;
+}
+
+.product-detail-container {
+  display: flex;
+  gap: 20px;
+}
+
+.product-image-gallery {
+  flex: 1;
+}
+
+.main-image img {
+  width: 100%;
+  display: block;
+}
+
+.thumbnail-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.thumbnail {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.product-info-container {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product-price {
+  font-size: 20px;
+  color: red;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.product-options {
+  margin-top: 20px;
+}
+
+.option-buttons button {
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+}
+
+.purchase-actions button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.product-tabs {
+  margin-top: 40px;
+}
+
+.tab-list {
+  display: flex;
+  gap: 10px;
+  border-bottom: 2px solid #ddd; /* 전체 탭 아래에 기본 선 추가 */
+}
+
+.tab-list li {
+  cursor: pointer;
+  padding: 10px 20px;
+  position: relative; /* 선 위치를 잡기 위해 position 사용 */
+  color: #333;
+}
+
+.tab-list li.active {
+  font-weight: bold;
+  color: black; /* 활성화된 탭 글자색 */
+}
+
+.tab-list li.active::after {
+  content: ""; /* 선을 추가하기 위한 가상 요소 */
+  position: absolute;
+  bottom: -2px; /* 텍스트 아래에 선 추가 */
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black; /* 선의 색상 */
+}
+
+.tab-content {
+  padding: 20px 0;
+  font-size: 14px;
+  color: #666;
+}
+.purchase-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.purchase-actions button {
+  flex: 1;
+  padding: 15px 20px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.purchase-actions .buy-now {
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+.purchase-actions .buy-now:hover {
+  background-color: black;
+}
+
+.purchase-actions .add-to-cart {
+  background-color: white;
+  color: black;
+}
+
+.purchase-actions .add-to-cart:hover {
+  background-color: #f8f8f8;
+}
+
+.purchase-actions .wishlist {
+  background-color: white;
+  color: #555;
+}
+
+.purchase-actions .wishlist:hover {
+  background-color: #f8f8f8;
+}
+.selected-options {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  color: #333;
+}
+
+.selected-options p {
+  margin: 5px 0;
+}
+
+.selected-options span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  vertical-align: middle;
+}
+/* 반응형 스타일 */
+@media (max-width: 1024px) {
+  .product-detail-container {
+    flex-direction: column;
+  }
+
+  .thumbnail-container {
+    justify-content: center;
+  }
+
+  .thumbnail {
+    width: 50px;
+    height: 50px;
+  }
+
+  .product-name {
+    font-size: 20px;
+  }
+
+  .product-price {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumb {
+    font-size: 12px;
+  }
+
+  .thumbnail-container {
+    gap: 5px;
+  }
+
+  .thumbnail {
+    width: 40px;
+    height: 40px;
+  }
+
+  .product-price {
+    font-size: 16px;
+  }
+
+  .option-buttons button {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .purchase-actions button {
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .breadcrumb {
+    font-size: 10px;
+  }
+
+  .main-image img {
+    height: auto;
+  }
+
+  .product-info-container {
+    padding: 10px;
+  }
+
+  .product-name {
+    font-size: 18px;
+  }
+
+  .tab-list li {
+    font-size: 12px;
+  }
+
+  .tab-list {
+    flex-wrap: wrap;
+  }
+
+  .tab-content {
+    font-size: 12px;
+  }
+}

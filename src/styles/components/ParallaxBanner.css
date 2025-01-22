@@ -1,0 +1,21 @@
+.parallax-banner{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url("../../../public/assets/images/fixed_banner01.jpg");
+  background-size: cover;
+  background-attachment: fixed;/* 페럴렉스효과 */
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  text-align:center;
+}
+
+@media screen and (max-width: 768px) {
+  .parallax-banner{
+    height: 300px;
+    background-attachment: scroll; /* 고정제거 */
+  }
+}

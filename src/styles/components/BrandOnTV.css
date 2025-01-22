@@ -1,0 +1,45 @@
+.brand-on-tv{
+  background-image: url("../../../public/assets/images/main_video_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0; 
+}
+.content-container{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.video-wrapper{}
+.video-wrapper iframe{
+  box-shadow: 0 4px 10px rgb(144, 144, 144);
+  border-radius: 10px;
+}
+.text-wrapper{
+  
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.brand-button {
+  height: 40px; outline: none; cursor: pointer;
+  width: 50%; transition: 0.2s;
+} 
+.brand-button:hover {
+  background-color: rgb(49, 49, 49);
+  width: 50%;
+  color: #fff;
+  border: none;
+}
+
+@media screen and (max-width:768px) {
+  .content-container{
+    flex-direction: column-reverse;
+    gap: 15px;
+  }
+  .text-wrapper{
+    text-align: center;
+  }
+}

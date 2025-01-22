@@ -1,0 +1,99 @@
+/* BrandPage.css */
+.brand-page {
+  padding: 40px 20px;
+  margin: 80px auto 50px auto;
+  max-width: 1200px;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #fcdfb3, #e9cda2);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 20px;
+  color: #555;
+}
+
+.brand-values {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.brand-values h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #ffb300;
+  font-weight: bold;
+}
+
+.brand-values ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  text-align: left;
+}
+
+.brand-values li {
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 30px;
+  text-align: center;
+}
+
+
+
+.about-us {
+  text-align: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #888888;
+  font-weight: bold;
+}
+
+.about-us p {
+  font-size: 18px;
+  color: #a0a0a0;
+  line-height: 1.6;
+}
+/* BrandPage.css 추가 - 반응형 */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 36px;
+  }
+
+  .hero-section p {
+    font-size: 16px;
+  }
+
+  .brand-values h2,
+  .about-us h2 {
+    font-size: 24px;
+  }
+
+  .brand-values li {
+    font-size: 16px;
+  }
+
+  .about-us p {
+    font-size: 16px;
+  }
+}

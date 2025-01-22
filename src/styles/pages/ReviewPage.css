@@ -1,0 +1,243 @@
+.review-page {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 120px auto;
+  max-width: 1200px;
+}
+
+.review-page h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.review-page p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.review-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  
+}
+
+.review-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.review-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review-card .rating {
+  margin: 10px 0;
+  color: #FFD700; 
+}
+
+.review-card .star {
+  margin-right: 5px;
+}
+
+.review-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-button {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.page-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.page-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+/* 기존 스타일 유지 */
+
+.review-page {
+  padding: 40px 20px;
+  text-align: center;
+  margin: 120px auto;
+  max-width: 1200px;
+}
+
+.review-page h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.review-page p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.review-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.review-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.review-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.review-card h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.review-card .rating {
+  margin: 10px 0;
+  color: #FFD700; /* 별 색상 */
+}
+
+.review-card .star {
+  margin-right: 5px;
+}
+
+.review-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.page-button {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.page-button.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.page-button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* 반응형 스타일 추가 */
+
+/* 태블릿 화면 (768px 이하) */
+@media (max-width: 768px) {
+  .review-page {
+    padding: 20px 10px;
+  }
+
+  .review-page h1 {
+    font-size: 28px;
+  }
+
+  .review-list {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+  }
+
+  .review-card {
+    padding: 15px;
+  }
+
+  .review-card img {
+    height: 150px;
+  }
+
+  .review-card h2 {
+    font-size: 18px;
+  }
+
+  .review-card p {
+    font-size: 14px;
+  }
+
+  .page-button {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+/* 모바일 화면 (480px 이하) */
+@media (max-width: 480px) {
+  .review-page h1 {
+    font-size: 24px;
+  }
+
+  .review-list {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .review-card {
+    padding: 10px;
+  }
+
+  .review-card img {
+    height: 120px;
+  }
+
+  .review-card h2 {
+    font-size: 16px;
+  }
+
+  .review-card p {
+    font-size: 12px;
+  }
+
+  .page-button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}

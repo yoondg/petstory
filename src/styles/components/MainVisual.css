@@ -1,0 +1,36 @@
+.carousel-item{position: relative;}
+.main-visual{
+  position: relative; 
+  height: 700px;
+  overflow: hidden;
+}
+.play-pause-btn{
+  position: absolute;
+  right: 150px;
+  z-index: 1;
+  bottom: 50px;
+  padding:5px 10px;
+  background-color: transparent;
+  border:none  !important;
+  cursor: pointer;
+}
+.text-content{
+  position: absolute;
+  text-align-last: left;
+  top: 40%;
+  left: 20%;
+}
+.react-multi-carousel-dot-list {
+  bottom: 10%;
+}
+.mainvisual-button{
+  padding: 10px 30px;
+  margin-top: 30px;
+  border: 1px solid rgb(125, 125, 125);
+  background-color: transparent;
+  
+  color: #5a5a5a;
+  cursor: pointer;
+}
+.text-content{color: #5a5a5a;}
+.text-content .title{ font-weight: 800; color:#5a5a5a;}
